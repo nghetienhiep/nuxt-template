@@ -1,0 +1,28 @@
+{
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "@babel/preset-env",
+                    {
+                        "targets": {
+                            "node": "current"
+                        }
+                    }
+                ]
+            ]
+        },
+        "development": {
+            "compact": false
+        }
+    },
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "lodash",
+                "libraryDirectory": ""
+            }
+        ]
+    ],
+}
