@@ -1,4 +1,4 @@
-# nuxt-buefy-ui
+# nuxt-template
 
 ## Build Setup
 
