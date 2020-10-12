@@ -1,7 +1,5 @@
 <template>
-    <div class="test">
-        <vs-button color="primary" type="filled">Primary</vs-button>
-    </div>
+    <div class="home-page">Nuxt Template</div>
 </template>
 
 <script>
@@ -17,7 +15,11 @@
     };
 </script>
 <style lang="scss">
-    .test {
-        background-color: $background-color-dark;
+    .home-page {
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>

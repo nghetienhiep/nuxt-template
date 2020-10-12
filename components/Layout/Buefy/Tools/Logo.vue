@@ -1,5 +1,5 @@
 <template>
-    <nuxt-link to="/" class="logo">
+    <nuxt-link to="/">
         <img src="https://nuxtjs.org/logos/nuxt.svg" alt="" />
     </nuxt-link>
 </template>
@@ -10,11 +10,4 @@
     };
 </script>
 
-<style scoped lang="scss">
-    .logo {
-        height: 100%;
-        img {
-            height: 100%;
-        }
-    }
-</style>
+<style scoped></style>

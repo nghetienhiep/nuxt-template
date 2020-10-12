@@ -28,17 +28,13 @@ export default {
     },
 
     // Global CSS (https://go.nuxtjs.dev/config-css)
-    css: [
-        'vuesax/dist/vuesax.css',
-        '@/assets/style/vuesax/css/variables.css',
-        { src: '@/assets/style/vuesax/scss/styl.scss', lang: 'scss' },
-    ],
+    css: [{ src: '@/assets/style/buefy/scss/styl.scss', lang: 'scss' }],
     styleResources: {
-        scss: ['@/assets/style/vuesax/scss/variables.scss'],
+        scss: ['@/assets/style/buefy/scss/variables.scss'],
     },
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-    plugins: ['@/plugins/vuesax', '@/plugins/init'],
+    plugins: ['@/plugins/init'],
 
     // Auto import components (https://go.nuxtjs.dev/config-components)
     components: true,
@@ -52,6 +48,7 @@ export default {
 
     // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
+        ['nuxt-buefy', { css: false }],
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
         // https://go.nuxtjs.dev/pwa

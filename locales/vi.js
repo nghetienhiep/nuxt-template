@@ -5,6 +5,12 @@ export default {
     Vietnamese: 'Tiếng Việt',
     English: 'Tiếng Anh',
     SignUp: 'Đăng ký',
-    LogIn: 'Đăng nhập',
+    SignIn: 'Đăng nhập',
     Contact: 'Liên hệ',
+    Welcome: 'Chào mừng bạn đến với Nuxt Template',
+    Password: 'Mật khẩu',
+    YourPassword: 'Mật khẩu của bạn',
+    YourEmail: 'Email của bạn',
+    Account: 'Tài khoản',
+    RememberMe: 'Ghi nhớ tôi',
 };

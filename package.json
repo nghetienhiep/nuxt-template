@@ -21,8 +21,8 @@
         "core-js": "^3.6.5",
         "lodash": "^4.17.20",
         "nuxt": "^2.14.6",
-        "nuxt-i18n": "^6.15.1",
-        "vuesax": "^4.0.1-alpha.25"
+        "nuxt-buefy": "^0.4.3",
+        "nuxt-i18n": "^6.15.1"
     },
     "devDependencies": {
         "@nuxtjs/dotenv": "^1.4.1",

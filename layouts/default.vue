@@ -1,14 +1,19 @@
 <template>
-    <!--    <buefy-layout />-->
-    <vue-sax-layout />
+    <buefy-layout>
+        <nuxt />
+    </buefy-layout>
 </template>
 
 <script>
     export default {
         name: 'DefaultLayout',
         components: {
-            // BuefyLayout: () => import('components/Layout'),
-            VueSaxLayout: () => import('components/Layout/VueSax'),
+            BuefyLayout: () => import('components/Layout/Buefy'),
+        },
+        head: {
+            bodyAttrs: {
+                class: 'flat-style',
+            },
         },
     };
 </script>

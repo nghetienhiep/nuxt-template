@@ -1,18 +1,17 @@
 <template>
-    <div class="vue-sax-layout">
+    <div>
         <global-header />
-        <global-body>
-            <nuxt />
-        </global-body>
+        <div class="container">
+            <slot />
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'VueSaxLayout',
+        name: 'BuefyLayout',
         components: {
             GlobalHeader: () => import('./GlobalHeader'),
-            GlobalBody: () => import('./GlobalBody'),
         },
     };
 </script>
